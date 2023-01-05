@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Cabin', sans-serif;
 }
 
 .conteiner{
@@ -15,11 +15,13 @@ body{
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgb(0 0 0 / 21%);
+    border-radius: 15px;
 }
 
 .stilo__img{
     height: 80vh;
     width: 80vh;
+    border-radius: 15px 0px 0px 15px;
 }
 
 .botao-entrar{
@@ -66,6 +68,11 @@ body{
     margin: 1rem 0;
 }
 
+.input-box{
+    display: grid;
+    margin: 0 10px;
+}
+
 .input-box label{
     font-size: 0.8rem;
     font-weight: 700;
@@ -85,8 +92,9 @@ body{
 }
 
 .genero__titulo h6{
-    font-size: 0.8rem;
+    font-size: 1.0rem;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .genero__botao{
